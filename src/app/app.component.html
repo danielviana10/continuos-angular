@@ -1,10 +1,30 @@
 <div class="container">
-  <app-two-way-data-binding></app-two-way-data-binding>
-  <app-rendering-lists></app-rendering-lists>
-  <app-custom-component name="Daniel" lastName="Viana"></app-custom-component>
-  <app-custom-component name="Mislene" lastName="Viana"></app-custom-component>
-  <app-father-component></app-father-component>
-  <app-service1></app-service1>
-  <app-service2></app-service2>
-  <app-life-cycle-parent></app-life-cycle-parent>
+  <app-card title="Card 1" color="lightblue">
+    <app-two-way-data-binding></app-two-way-data-binding>
+  </app-card>
+
+  <app-card title="Card 2" color="lightgreen">
+    <app-rendering-lists></app-rendering-lists>
+  </app-card>
+
+  <app-card title="Card 3" color="lightcoral">
+    <app-custom-component name="Daniel" lastName="Viana"></app-custom-component>
+  </app-card>
+
+  <app-card title="Card 4" color="lightpink">
+    <app-custom-component name="Mislene" lastName="Viana"></app-custom-component>
+  </app-card>
+
+  <app-card title="Card 5" color="lightyellow">
+    <app-father-component></app-father-component>
+  </app-card>
+
+  <app-card title="Card 6" color="lightgray">
+    <app-service1></app-service1>
+    <app-service2></app-service2>
+  </app-card>
+
+  <app-card title="Card 7" color="lightblue">
+    <app-life-cycle-parent></app-life-cycle-parent>
+  </app-card>
 </div>

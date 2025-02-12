@@ -13,6 +13,7 @@ import { Service1Component } from './service1/service1.component';
 import { Service2Component } from './service2/service2.component';
 import { LifeCycleComponent } from './life-cycle/life-cycle.component';
 import { LifeCycleParentComponent } from './life-cycle-parent/life-cycle-parent.component';
+import { CardComponent } from './card/card.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { LifeCycleParentComponent } from './life-cycle-parent/life-cycle-parent.
     Service1Component,
     Service2Component,
     LifeCycleComponent,
-    LifeCycleParentComponent
+    LifeCycleParentComponent,
+    CardComponent
   ],
   imports: [
     BrowserModule,
