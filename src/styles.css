@@ -13,7 +13,3 @@
   font-family: Arial, sans-serif;
   text-align: center;
 }
-
-.customComponentContainer:last-child {
-  margin-bottom: -1rem;
-}

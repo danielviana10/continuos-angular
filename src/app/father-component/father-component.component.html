@@ -1,0 +1,3 @@
+<p>The last name is defined in the father component: {{ lastName }}</p>
+<span>The entire name is {{ child.name}}  {{ lastName }}</span>
+<app-child-component [lastName]="lastName" #child (showName)="showFullName($event)"></app-child-component>
