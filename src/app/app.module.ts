@@ -9,6 +9,8 @@ import { RenderingListsComponent } from './rendering-lists/rendering-lists.compo
 import { CustomComponentComponent } from './custom-component/custom-component.component';
 import { FatherComponentComponent } from './father-component/father-component.component';
 import { ChildComponentComponent } from './child-component/child-component.component';
+import { Service1Component } from './service1/service1.component';
+import { Service2Component } from './service2/service2.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +19,9 @@ import { ChildComponentComponent } from './child-component/child-component.compo
     RenderingListsComponent,
     CustomComponentComponent,
     FatherComponentComponent,
-    ChildComponentComponent
+    ChildComponentComponent,
+    Service1Component,
+    Service2Component
   ],
   imports: [
     BrowserModule,
